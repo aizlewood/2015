@@ -1,33 +1,70 @@
-<?php snippet('header') ?>
+    <?php snippet('header') ?>
 
-  <main class="main" role="main">
 
-    <h1><?php echo $page->title()->html() ?></h1>
+      <main class="projects" role="main">
 
-    <ul class="meta cf">
-      <li><b>Year:</b> <time datetime="<?php echo $page->date('c') ?>"><?php echo $page->date('Y', 'year') ?></time></li>
-      <li><b>Tags:</b> <?php echo $page->tags() ?></li>
-    </ul>
+         <?php if($page->bgblock() != ''): ?>
+          <div class="intro" style="background-color:<?php echo $page->bgblock()?>;'">
 
-    <div class="text">
-      <?php echo $page->text()->kirbytext() ?>
+          <?php else : ?>
 
-      <?php foreach($page->images()->sortBy('sort', 'asc') as $image): ?>
-      <figure>
-        <img src="<?php echo $image->url() ?>" alt="<?php echo $page->title()->html() ?>">
-      </figure>
+          <?php $firstimage = $page->images()->get('Artboard.jpg')?>
+          <div class="intro single" style="background-image:url('<?php echo $firstimage->url()?>')">
+
+        <?php endif ?>
+
+          <?php foreach(page('projects')->children()->visible()->limit(1) as $project): ?>
+              <h1><?php echo $page->title()->html() ?></h1>
+              <p><?php echo html($page->snippet()) ?></p>
+          <?php endforeach ?>      
+
+        </div>
+
+      <article>
+
+        <figure class="hero">
+          <img src="<?php echo $page->files()->get('hero.png')->url() ?>">
+        </figure>
+
+        <div class="row lede">
+          <?php echo $page->lede()->kirbytext() ?>
+        </div>
+
+    <?php
+    $images = array();
+    foreach($page->children() as $child) {
+      foreach($child->images() as $image) {
+        $images[] = $image;
+      }
+    }
+
+    shuffle($images);
+
+    ?>
+    <?php if (!empty ($images )) : ?>
+    <ul class="gallery">
+      <?php foreach($images as $image): ?>
+        <li class="item">
+          <img src="<?php echo $image->url() ?>" width="<?php echo $image->width() ?>" height="<?php echo $image->height() ?>" alt="<?php echo $image->name() ?>" />
+        </li>
       <?php endforeach ?>
+    </ul> 
+    <?php endif ?>          
+
+        <div class="row">
+          <?php echo $page->text()->kirbytext() ?>
+        </div>
+    
+
+    <div class="segue">
+          <?php if($next = $page->nextVisible()): ?>
+          <a href="<?php echo $next->url() ?>">View Next Project</a>
+          <?php else : ?>
+          <?php endif ?>
     </div>
 
-    <nav class="nextprev cf" role="navigation">
-      <?php if($prev = $page->prevVisible()): ?>
-      <a class="prev" href="<?php echo $prev->url() ?>">&larr; previous</a>
-      <?php endif ?>
-      <?php if($next = $page->nextVisible()): ?>
-      <a class="next" href="<?php echo $next->url() ?>">next &rarr;</a>
-      <?php endif ?>
-    </nav>
+    </article>
 
-  </main>
+      </main>
 
-<?php snippet('footer') ?>
+    <?php snippet('footer') ?>

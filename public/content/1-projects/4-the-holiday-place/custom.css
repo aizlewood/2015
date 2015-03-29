@@ -1,0 +1,39 @@
+body {
+    background: #33373C;
+}
+
+.projects article  {
+    background: #33373C;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5,
+p,
+ul,
+li {
+	color: #fff;
+}
+
+a:link {
+	color: #d3005c;
+}
+
+a:visited {
+	color: #2cafc9;
+}
+
+a:hover {
+	color: #2cafc9;
+}
+
+a:active {
+	color: #d3005c;
+}
+
+p.callout {
+	background: #fff;
+	color: #000;
+}

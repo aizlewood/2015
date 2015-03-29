@@ -1,0 +1,117 @@
+article.home p {
+	margin: 1em 0 0 0;
+	font-size: 1.4em;
+}
+
+article.post p:first-of-type {
+	font-family: $font-serif-regular;
+	font-style:normal;
+	font-size: 1.6em;
+	line-height: 1.4;
+	color: $color-dark;
+}
+
+article blockquote  {
+	padding: 0%;
+	width: 80%;
+	font-family: $font-serif-emphasis;	
+	font-style: italic;
+	opacity: 0.5;
+}
+
+article blockquote p {
+	font-style: italic;
+}
+
+article blockquote p:first-of-type {
+	font-size: 1rem;
+	font-family: $font-serif-emphasis;
+	font-style: italic;
+}
+
+article h1 {
+	border-bottom: 1px solid #ccc;
+}
+
+article .intro h1 {
+	border-bottom: none;
+}
+
+article ul,
+article ol {
+	
+}
+
+
+article h1,
+article.vanilla > h1,
+article.vanilla > p,
+article.vanilla > h2,
+article.vanilla > h3,
+article.vanilla > h4,
+article.vanilla > h5,
+article.vanilla > ul,
+article.vanilla > ol,
+article.vanilla > iframe {
+	padding: 0 5%;
+}
+
+article.post blockquote {
+	font-size: 1rem;
+}
+
+
+@media all and (min-width: 50em) {	
+
+
+	article.post img {
+		width: auto;
+		height: auto;
+	}
+
+
+
+	article.post {
+		max-width: 90%;		
+		padding: 0 13%;
+	}
+
+	article.vanilla > p,
+	article.vanilla > h2,
+	article.vanilla > h3,
+	article.vanilla > h4,
+	article.vanilla > h5,
+	article.vanilla > ul,
+	article.vanilla > ol,
+	article.vanilla > iframe {
+		padding: 0 13%;
+	}
+
+	article h1 {
+		padding: 3% 13%;
+	}
+
+	article.post-intro h1 {
+		padding: 3% 13%;
+	}
+
+
+	article img {
+		width: 100%;
+	}
+}	
+
+@media all and (min-width: 85em) {
+
+
+	article.post {
+		max-width: 48em;		
+		padding: 0 13% 0 13%;
+	}
+
+	article.page {
+		max-width: 75%;
+	}
+	
+
+}

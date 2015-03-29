@@ -1,0 +1,38 @@
+@media all and (min-width: 50em) {
+
+	.blog .nextprev {
+		height: 3rem;
+		position: fixed;
+		top: 0;
+		width: 2.1rem;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		background: #fdfdfd;
+		border-right: 1px solid #ccc;
+		z-index: 998;
+		font-family: $font-sans-regular;
+	}
+
+	.blog .nextprev a img {
+		display: block;
+	}
+	.blog .nextprev span.hideonsmall {
+		display: block;
+	}
+
+	.blog .nextprev span.hideonlarge{
+		display: none;
+	}
+
+	.blog .nextprev a {
+		text-align: center;
+		display: block;
+		color: #999;
+		padding: 0.66em;
+	}
+
+	.blog .nextprev a:hover {
+		background: #eee;
+	}		
+}	

@@ -1,14 +1,26 @@
-<h2>Latest projects</h2>
-
 <ul class="teaser cf">
-  <?php foreach(page('projects')->children()->visible()->limit(3) as $project): ?>
+  <?php foreach(page('projects')->children()->visible()->limit(100) as $project): ?>
   <li>
-    <h3><a href="<?php echo $project->url() ?>"><?php echo $project->title()->html() ?></a></h3>
-    <p><?php echo $project->text()->excerpt(80) ?> <a href="<?php echo $project->url() ?>">read&nbsp;more&nbsp;→</a></p>
-    <?php if($image = $project->images()->sortBy('sort', 'asc')->first()): ?>
-    <a href="<?php echo $project->url() ?>">
-      <img src="<?php echo $image->url() ?>" alt="<?php echo $project->title()->html() ?>" >
-    </a>
+
+    <?php if($image = $project->images()->sortBy('sort', 'asc')->get('Artboard.jpg')): ?>
+
+    <?php if($page->bgblock() != ''): ?>
+      <div class="intro" style="background-color:<?php echo $page->bgblock()?>;'">
+
+      <?php else : ?>
+
+      <div class="intro" style="background-image:url('<?php echo $image->url()?>')">
+
+    <?php endif ?>
+
+
+  
+
+          <h1 class="alpha"><a href="<?php echo $project->url() ?>"><?php echo $project->title()->html() ?></a></h1>
+          <p><em><?php echo $project->snippet()->html() ?></em></p>
+          <p><a class="cta" href="<?php echo $project->url() ?>">read&nbsp;the&nbsp;case&nbsp;study→</a></p>
+    </div>
+
     <?php endif ?>
   </li>
   <?php endforeach ?>

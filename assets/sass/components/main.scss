@@ -1,0 +1,72 @@
+.main {
+  overflow: hidden;
+  margin-left: -2px;
+  padding: 0em;
+  padding-top: 6em;
+  position: relative;
+  top: 0;
+}
+
+
+
+.main .intro {
+  padding: 10% 10% 30% 10%;
+}
+
+.main .inner {
+  max-width: 100%;
+}
+
+
+@media all and (min-width: 50em) {
+  
+
+  .main { 
+    max-width: 90%;
+    font-size: 100%;
+    margin-left: 7rem;  
+    padding: 0;   
+  }   
+
+  .main .intro {
+    padding: 5% 10% 10% 10%;
+  }
+
+  .main .inner {
+    max-width: 100%;
+  }
+  
+  .main.home {
+    max-width: 100%;
+    margin-left: 7rem;
+  }
+
+}
+
+
+
+@media all and (min-width: 85em) {
+
+  .main { 
+    max-width: 90%;
+    font-size: 100%;
+    margin-left: 12%; 
+    padding: 0;   
+  }   
+
+  .main .intro {
+    padding: 5% 10% 10% 10%;
+  }
+
+
+  .main.home {
+    max-width: 100%;
+    margin-left: 12%;
+  }
+
+  .main { 
+    max-width: 100%;
+    font-size: 100%;
+  }   
+
+}

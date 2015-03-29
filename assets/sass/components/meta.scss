@@ -1,0 +1,50 @@
+.author {
+	float: left;
+	width: 100%;
+    color: #bbb;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-family: $font-sans-gothic;
+}
+
+.author a {
+	color: #111;
+}
+
+.author a:hover {
+	color: #000;
+}
+
+.tags {
+	margin: 5% 0;
+	float: left;
+	text-align: left;
+	width: 100%;
+	text-transform: uppercase;
+	font-family: $font-sans-gothic;
+	font-size: 0.9em;
+	color: #999;
+}
+
+.tags a {
+	font-family: $font-sans-gothic;	
+	color: #333;
+	margin: 0 0.5%;
+}
+
+@media all and (min-width: 50em) {
+
+	.author {
+		float: left;
+		width: 50%;
+		max-width: 50%;
+	}
+
+	.tags {
+		margin: 0;
+		float: right;
+		text-align: right;
+		width: 50%;
+		max-width: 50%;
+	}	
+}	

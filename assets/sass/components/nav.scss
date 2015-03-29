@@ -1,0 +1,140 @@
+nav.sidebar ul {
+	position: relative;
+	margin: 0;
+	padding: 0
+}
+
+nav.sidebar ul li  {
+	display: inline;
+	color: #7E8FAE;
+	margin: 0 0.4rem;
+	font-size: 1.3rem;
+	font-family: $font-sans-gothic;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	display: block;
+}
+
+nav.sidebar ul li a {
+	// display: inline-block;
+	line-height: 1.8;
+	color: #333;
+}
+
+nav.sidebar ul li a.active {
+	color: #000;
+	border-bottom: 1px solid #000;	
+}	
+
+nav.sidebar ul li a:hover {
+	color: #000;
+	// border-bottom: 2px solid #EB2068;
+}
+
+nav.sidebar ul span {
+	color: #7E8FAE;	
+	font-size: 1.2em;
+	font-family: $font-sans-regular;
+	display: none;
+}
+
+
+@media all and (min-width: 25em) {
+	.nav-collapse ul {
+	  background: transparent;
+	}	
+
+	nav.sidebar ul {
+		margin: 1.5em 1em 1em 1em;
+		padding: 0;
+		padding-bottom: 0%;
+	}
+
+	nav.sidebar ul li  {
+		display: inline;
+		color: #7E8FAE;
+		font-size: 1rem;
+		margin: 0 0%;
+	}
+
+	nav.sidebar ul li a {
+		display: inline-block;
+		line-height: 1.5;
+	}
+
+	nav.sidebar ul span {
+		color: #7E8FAE;	
+		font-size: 1.2em;
+		display: none;
+	}
+
+	.js .nav-collapse.closed {
+		max-height: none;
+		float: right;
+		width: 80%;		
+	}
+
+}
+
+@media all and (min-width: 40em) {
+	nav.sidebar ul {
+		margin: 1.5em 0 1em 2em;
+		padding: 0;
+		padding-bottom: 0%;
+		min-width: 50%;		
+	}
+
+	nav.sidebar ul li  {
+		display: inline;
+		color: #7E8FAE;
+		font-size: 1rem;
+		margin: 0 2%;
+	}
+
+	nav.sidebar ul li a {
+		display: inline-block;
+		line-height: 1.5;
+	}
+
+	nav.sidebar ul span {
+		color: #7E8FAE;	
+		font-size: 1.2em;
+		display: none;
+	}	
+}
+
+
+
+@media all and (min-width: 50em) {
+
+	nav.sidebar ul {
+		margin: 1em 1.5em 0 0em;
+		padding: 0;
+		padding-bottom: 0%;
+		text-align: center;	
+	}
+
+	nav.sidebar ul li  {
+		margin: 0 0%;
+		font-size: 1em;
+		display: block;
+		text-align: center;
+	}
+
+	nav.sidebar ul span {
+		color: #7E8FAE;	
+		font-size: 1.4em;
+		font-family: $font-sans-regular;
+		display: none;
+	}	
+
+}	
+
+@media all and (min-width: 85em) {
+
+	nav.sidebar ul li {
+		font-size: 1.5em;
+		margin: 0;
+		width: 85%;
+	}
+}

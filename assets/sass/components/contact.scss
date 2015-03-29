@@ -1,0 +1,19 @@
+/* ==========================================================================
+   Contact
+   ========================================================================== */
+
+.contact-strip a {
+	display: block;
+	background: #000;
+	padding: 5% 0;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: $font-sans-bold;
+	font-size: 2em;	
+}
+
+.contact-strip a:hover {
+	background: #c41c58;
+	color: #fff;
+}

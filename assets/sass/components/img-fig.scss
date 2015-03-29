@@ -1,0 +1,34 @@
+img.left {
+	float: left;
+	margin-right: 4%;
+}
+
+img.right {
+	float: right;
+	margin-left: 4%;
+}
+
+@media all and (min-width: 50em) {
+	figure {
+		text-align: center;
+		margin: 0 0 5% 0;
+	}
+
+	figure.normal-size img {
+		width: auto;
+		margin: 0 0 5% 0;
+		box-shadow: 0 1px 12px rgba(0,0,0,0.5);
+	}
+
+	figure.mid-size img {
+		width: 40%;
+		margin: 0 0 5% 0;		
+		box-shadow: 0 1px 12px rgba(0,0,0,0.5);
+	}	
+
+	figure.small-size img {
+		width: 25%;
+		margin: 0 0 5% 0;		
+		box-shadow: 0 1px 12px rgba(0,0,0,0.5);	
+	}	
+}	

@@ -1,0 +1,45 @@
+/* Buttons */
+
+a.clearleft {
+	color: #9DC640;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+a.back {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 14px;
+	color: #aaa;
+	font-family: $font-sans-regular;
+}
+
+a.cta {
+	font-family: $font-sans-gothic;
+	font-size-adjust:0.488; 
+	font-style:normal;	
+	padding: 1.5em 2em;
+	text-decoration: none;
+	color: #fff;
+	font-size: 0.5em;
+	text-transform: uppercase;
+	@include border-radius(5px);
+	border: 1px solid #fff;
+	background: none;
+}
+
+a.cta:hover {
+	font-family: $font-sans-gothic;
+	font-size-adjust:0.488; 
+	font-style:normal;	
+	padding: 1.5em 2em;
+	text-decoration: none;
+	color: #000;
+	text-shadow: none;
+	text-transform: uppercase;
+	@include border-radius(5px);
+	border: 1px solid #fff;
+	background: rgba(255,255,255,1);
+}

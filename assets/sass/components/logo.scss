@@ -1,0 +1,36 @@
+.logo-wrap {
+  text-align: center; 
+}
+
+
+a.logo {
+  display: block;
+  float: left;
+  width: 2.5em;
+  height: 2.5em;
+  padding: 3% 3% 2% 3%;
+  overflow: hidden;
+}
+
+a.logo:hover {
+  border-bottom: none;
+}
+
+@media all and (min-width: 50em) {
+	
+
+	
+
+	.logo-wrap {
+		padding-top: 2em;
+	}
+
+
+
+	a.logo {
+		width: 4em;
+		height: 100%;
+		margin: 0 auto;
+		float: none;
+	}
+}

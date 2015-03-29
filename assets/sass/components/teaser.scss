@@ -1,0 +1,19 @@
+ul.teaser  {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.teaser li {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+}
+
+ul.teaser li .title {
+	position: absolute;
+	width: 100%;
+	display: block;
+	text-align: center;
+}

@@ -1,0 +1,103 @@
+.controls {
+	background: #eee;
+	width: 100%;
+	padding: 2% 4%;
+	overflow: hidden;
+	position: relative;
+	border-bottom: 1px solid #ccc;
+}
+
+.nextprev {
+	position: fixed;
+	top: 50%;
+	height: auto;
+	width: 100%;	
+	clear: both;
+	font-family: $font-sans-regular;
+}
+
+.nextprev a {
+	text-align: center;
+	width: 1em;
+	height: 1em;
+	padding: 1em 0.5em 1.5em 0.5em;
+	display: block;
+	text-transform: uppercase;
+	color: #444;
+	background: #fff;
+	float: left;
+	opacity: 0.5;
+}
+
+.nextprev a:hover {
+	opacity: 1;
+	border: none;
+}
+
+.nextprev a.next {
+	float: right;
+}
+
+
+@media all and (min-width: 50em) {
+	.nextprev {
+		position: absolute;
+		top: 0.5em;
+		left: 8em;
+		max-width: 7.5em;
+		margin: 0;
+		padding: 0;
+		z-index: 998;
+		font-family: $font-sans-regular;
+		border: 0;
+		overflow: normal;
+		background: transparent;
+	}
+
+	.nextprev a img {
+		display: block;
+	}
+	.nextprev span.hideonsmall {
+		display: block;
+	}
+
+	.nextprev span.hideonlarge{
+		display: none;
+	}
+
+	.nextprev a {
+		float: left;
+		text-align: center;
+		color: #999;
+		width: 1em;
+		margin: 0.5em 0.1em;
+		padding: 0.75em 1.1em 1.4em 1em;
+		background: #fff;
+		border-radius: 3px;
+		opacity: 0.5;
+	}
+
+	.nextprev a:hover {
+		opacity: 1;
+	}
+
+	.controls {
+		background: none;
+		padding-bottom: 0;
+	}
+		
+}	
+
+@media all and (min-width: 60em) {
+	.nextprev {
+		top: 0.5em;
+		left: 8em;
+	}
+}	
+
+@media all and (min-width: 85em) {
+		.nextprev {
+		top: 0.5em;
+		left: 13.5em;
+	}	
+}	

@@ -1,0 +1,24 @@
+.footer-blog {
+	border-top: 1px solid #ccc;	
+	position: relative;	
+	overflow: hidden;
+	padding: 5%;
+}
+
+
+
+footer p:first-of-type {
+	text-align: right;
+	font-size: inherit;
+}
+
+footer p:first-of-type a {
+	text-decoration: none;
+	color: #111;
+}
+
+@media all and (min-width: 50em) {
+	.footer-blog {
+		padding: 5% 13%;
+	}
+}	

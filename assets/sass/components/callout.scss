@@ -1,0 +1,16 @@
+p.callout {
+	background: #212121;
+	color: #fff;
+	padding: 4% 10%;
+	font-size: 150%;
+}
+
+@media all and (min-width: 40em) {
+	p.callout {
+		padding: 10% 15%;
+	}
+
+	p.read-case-study {
+		margin-top: 1em;
+	}
+}

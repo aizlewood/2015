@@ -9,14 +9,34 @@
   <meta name="description" content="<?php echo $site->description()->html() ?>">
   <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
 
-  <?php echo css('assets/css/main.css') ?>
+  <?php echo css('assets/css/all.css') ?>
+  
+<?php foreach($page->files()->filterBy('extension', 'css') as $css): ?>
+  <?php echo css($css->url()) ?>
+<?php endforeach ?>
 
+<?php foreach($page->files()->filterBy('extension', 'js') as $js): ?>
+  <?php echo js($js->url()) ?>
+<?php endforeach ?>
+
+  <script type="text/javascript">
+  WebFontConfig = { fontdeck: { id: '51080' } };
+
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+    '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })();
+  </script>
 </head>
 <body>
 
   <header class="header cf" role="banner">
-    <a class="logo" href="<?php echo url() ?>">
-      <img src="<?php echo url('assets/images/logo.svg') ?>" alt="<?php echo $site->title()->html() ?>" />
-    </a>
+  
     <?php snippet('menu') ?>
+
   </header>

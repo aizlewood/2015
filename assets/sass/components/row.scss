@@ -1,0 +1,66 @@
+.row {
+	text-align: left;
+	font-size: 0.8em;
+	width: 90%;
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+.row--full {
+	text-align: left;
+	font-size: 0.8em;
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.row h2,
+.row h3,
+.row h4,
+.row h5,
+.row ol,
+.row p,
+.row ul {
+	padding: 0 7%;
+	margin-top: 0em;
+}
+
+.row ul {
+	text-align: left;
+}
+
+.row.lede {
+	font-size: 0.8em;
+	line-height: 1.4;
+	color: $color-dark;	
+	padding: 0 8% 4.5% 8%;        
+}
+
+@media all and (min-width: 40em) {
+	.row {
+		text-align: left;
+		font-size: 0.8em;
+		width: 50%;
+		max-width: 50%;
+		margin: 0 auto;
+	}
+
+	.row--full {
+		text-align: left;
+		font-size: 0.8em;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+}
+
+// .row.lede {
+//   -webkit-column-count: 2;
+//      -moz-column-count: 2;
+//           column-count: 2;
+//   -webkit-column-width: 25em;
+//      -moz-column-width: 25em;
+//           column-width: 25em;	
+//   -webkit-column-gap: 1em;
+//      -moz-column-gap: 1em;
+//           column-gap: 1em;  	
+// }

@@ -1,0 +1,20 @@
+.title {
+	padding-top: 10%;
+}
+
+.title h2 a,
+.title p {
+	color: #fff;
+}
+
+.title .cta,
+.title p {
+	visibility: visible;
+}
+
+@media all and (min-width: 40em) {
+	.title .cta,
+	.title p {
+		visibility: visible;
+	}
+}	

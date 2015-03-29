@@ -1,0 +1,87 @@
+header {
+	display: block;	
+	float: none;
+	height: 4rem;
+	background: $nav-color url(../img/bg.png);	
+	border-bottom: 1px solid #ccc;
+	z-index: 999;
+	position: relative;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+header a:link,
+header a:hover {
+	background: none;
+	border-bottom: none;
+}
+
+@media all and (min-width: 25em) and (max-width: 50em) {
+	header {
+		display: block;	
+		float: none;
+		height: 4rem;
+		background: $nav-color url(../img/bg.png);	
+		border-bottom: 1px solid #ccc;
+		z-index: 999;
+		position: relative;
+		width: 100%;
+	}	
+}	
+
+@media all and (min-width: 25em) {
+	header {
+		padding: 0em 0em;	
+		height: 5rem;
+		background: $nav-color url(../img/bg.png);		
+	}
+}
+
+@media all and (min-width: 40em) {
+
+	header {
+		padding: 0em 0em;	
+		height: 5rem;
+	}
+}	
+
+@media all and (min-width: 50em) {
+
+	header {
+		display: block;
+		width: auto;
+		padding-top: 0;
+		height: 100%;
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		width: 7rem;
+		max-width: 7rem;
+		border-right: 1px solid #ccc;		
+	}
+
+	header h1 a {
+		display: block;
+		float: none;
+		text-decoration: none;
+		position: relative;
+		text-align: center;
+	}
+
+}	
+
+@media all and (min-width: 85em) {
+	header {
+		display: block;
+		width: auto;
+		padding-top: 0;
+		height: 100%;
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		width: 12%;
+		max-width: 12%;
+		border-right: 1px solid #ccc;		
+	}	
+}	

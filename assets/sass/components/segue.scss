@@ -1,0 +1,18 @@
+.segue {
+	width: 100%;
+	text-align: center;
+}
+
+.segue a {
+	display: block;
+	background: #000;
+	color: #fff;
+	padding: 1em 0;
+	font-size: 1.8em;
+	font-family: $font-serif-emphasis;
+}
+
+.segue a:hover {
+	border: none;
+	color: #FFF;
+}

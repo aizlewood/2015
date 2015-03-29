@@ -1,0 +1,73 @@
+.projects {
+	margin-top: 4em;
+}
+
+.projects article {
+	position: relative;
+}
+
+.projects figure.hero img {
+	margin-top: -3em;
+}
+
+.projects .intro {
+	padding: 10% 10% 40% 10%;
+}
+
+@media all and (min-width: 40em) {
+	.projects .intro h1 {
+		font-size: 6em;
+	}	
+	.projects {	
+		max-width: 100%;
+		font-size: 100%;
+		margin-left: 0rem;	
+		padding: 0;		
+	}	
+}
+
+@media all and (min-width: 50em) {
+	.projects {
+		margin-top: 0em;
+	}
+	.projects {	
+		max-width: 100%;
+		font-size: 100%;
+		margin-left: 7rem;	
+		padding: 0;	
+		padding-bottom: 50%;	
+	}		
+}	
+
+@media all and (min-width: 60em) {
+	.projects .intro {
+		padding: 6% 6% 6% 6%;
+	}
+
+	.projects .intro {
+		height: 100%;
+		overflow: hidden;
+		position: fixed;
+		top: 0;
+		width: 90%;
+		z-index: -1;
+	}	
+
+	.projects .intro h1,
+	.projects .intro p,	 {
+		margin-left: -12%;
+	}
+
+	.projects .intro h1 {
+		margin-top: 1%;
+	}
+
+	.projects article {
+		background: #FFF;
+		margin-top: 35em;
+	}
+
+	.projects figure.hero img {
+		margin-top: -5em;
+	}
+}	

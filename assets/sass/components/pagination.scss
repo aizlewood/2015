@@ -1,0 +1,28 @@
+.pagination {
+	height: auto;
+	clear: both;
+	width: 100%;
+	margin: 0 0 0 0;
+	padding: 0;
+	z-index: 998;
+	background: #bbb;		
+	font-family: $font-sans-regular;
+	border-top: 1px solid #ccc;
+}
+
+.pagination a {
+	text-align: center;
+	width: 48%;
+	display: block;
+	float: left;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	letter-spacing: 1px;
+	line-height: 3.5;
+	color: #444;
+	border-left: 1px solid #ccc;
+}
+
+.pagination a:hover {
+	color: #111;
+}

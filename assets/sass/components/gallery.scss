@@ -1,0 +1,46 @@
+/* ==========================================================================
+   Gallery
+   ========================================================================== */
+
+ul.gallery {
+	margin: 0 0 3% 0;
+	padding: 0;
+	width: 100%;
+}
+
+ul.gallery li {
+	line-height: 0;
+	margin: 0;
+	padding: 0;
+	width: 49.9%;
+	float: left;
+	list-style-type: none;
+}
+
+ul.gallery li img {
+	width: auto;
+	height: auto;
+}
+
+
+@media all and (min-width: 40em) {
+	ul.gallery {
+		overflow: hidden;
+		padding: 0;
+		width: 100%;
+	}
+
+	ul.gallery li {
+		line-height: 0;
+		margin: 0;
+		padding: 0;
+		width: 33.1%;
+		float: left;
+		list-style-type: none;
+	}
+
+	ul.gallery li img {
+		width: auto;
+		height: auto;
+	}	
+}	

@@ -1,0 +1,5 @@
+# repository: git@github.com:clearleft/2015.ampersand.git
+build: ['npm install', 'grunt']
+
+devbox: 
+  domain: jonaizlewood.elf

@@ -13,7 +13,7 @@ class Roots extends Obj {
   }
 
   public function content() {
-    return isset($this->content) ? $this->content : $this->index . DS . 'content';
+    return isset($this->content) ? $this->content : $this->index . DS . 'public/content';
   }
 
   public function site() {

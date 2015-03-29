@@ -1,0 +1,32 @@
+/* ----------------- Columns ----------------- */
+@media all and (min-width: 55em) {
+    .row {
+        clear: both;
+        overflow: hidden;
+    }
+    .half {
+        width: 48%;
+        margin-right: 2%;
+        float: left;
+    }
+
+    .third {
+        width: 30%;
+        margin-right: 3%;
+        float: left;
+    }
+
+    .two-thirds {
+        width: 64.5%;
+        margin-right: 4%;
+        float: left;
+    }
+    .quarter {
+        width: 23%;
+        margin-right: 2%;
+        float: left;
+    }
+    .last {
+        margin-right: 0;
+    }
+}

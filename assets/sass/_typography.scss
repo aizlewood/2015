@@ -9,13 +9,25 @@ div { font-family:"Ingeborg Italic", "Hoefler Text", Georgia, serif; font-size-a
 div { font-family:"TabletGothicCondensedSemibold", 'Avenir Next Condensed', 'Arial Narrow', Corbel, Arial, Roboto, sans-serif; font-weight:600; font-style:normal; }
 */
 
-$font-serif-bold: "Ingeborg Regular", "Hoefler Text", Georgia, serif; 
-$font-serif-regular: "Ingeborg Regular", "Hoefler Text", Georgia, serif;
-$font-serif-emphasis: "Ingeborg Italic", "Hoefler Text", Georgia, serif;
-$font-sans-bold: "Pembroke Bold", 'Segoe UI', 'Helvetica Neue', Verdana, sans-serif;
-$font-sans-regular: "Pembroke Regular", 'Segoe UI', 'Helvetica Neue', Verdana, sans-serif;
-$font-sans-emphasis: "Pembroke Italic", 'Segoe UI', 'Helvetica Neue', Verdana, sans-serif;
-$font-sans-gothic: "TabletGothicCondensedSemibold", 'Avenir Next Condensed', 'Arial Narrow', Corbel, Arial, Roboto, sans-serif;
+// $font-serif-bold: "Ingeborg Regular", "Hoefler Text", Georgia, serif; 
+// $font-serif-regular: "Ingeborg Regular", "Hoefler Text", Georgia, serif;
+// $font-serif-emphasis: "Ingeborg Italic", "Hoefler Text", Georgia, serif;
+// $font-sans-bold: "Pembroke Bold", 'Segoe UI', 'Helvetica Neue', Verdana, sans-serif;
+// $font-sans-regular: "Pembroke Regular", 'Segoe UI', 'Helvetica Neue', Verdana, sans-serif;
+// $font-sans-emphasis: "Pembroke Italic", 'Segoe UI', 'Helvetica Neue', Verdana, sans-serif;
+// $font-sans-gothic: "TabletGothicCondensedSemibold", 'Avenir Next Condensed', 'Arial Narrow', Corbel, Arial, Roboto, sans-serif;
+
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:700,400,300);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic);
+
+$font-serif-bold: "Playfair Display", serif; 
+$font-serif-regular: "Playfair Display", serif;
+$font-serif-emphasis: "Playfair Display", serif;
+$font-sans-bold: "Raleway", sans-serif;
+$font-sans-regular: "Raleway", sans-serif;
+$font-sans-emphasis: "Raleway", sans-serif;
+$font-sans-condensed: "Oswald", sans-serif;
 
 $color: #0F182F;
 $color-dark: #111;
@@ -29,8 +41,8 @@ body {
 
 h1, h2, h3, h4, h5 {
 	line-height: 100%; 
-	font-family: $font-sans-bold; 
-	font-weight:bold; 
+	font-family: $font-serif-bold;
+	font-weight:900; 
 	font-style:normal;	
 	letter-spacing: -0.025em;
 	color: $color-bluebg;
@@ -54,14 +66,16 @@ h5 {font-size: 1.2em; text-transform: uppercase;}
 
 
 p, li {
-	font-family: $font-serif-regular;
+	font-family: $font-sans-regular;
+	font-weight: 400;
 	@include font-size(10);
 	@include line-height(14);
 }
 
 @media all and (min-width: 40em) {
 	p, li {
-		font-family: $font-serif-regular;
+		font-family: $font-sans-regular;
+		font-weight: 400;
 		@include font-size(12);
 		@include line-height(14);
 	}
@@ -74,6 +88,7 @@ p {
 p b, 
 p strong {
 	font-family: $font-sans-bold;
+	font-weight: 700;
 }
 
 figcaption {

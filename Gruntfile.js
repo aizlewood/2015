@@ -152,7 +152,7 @@ module.exports = function(grunt) {
         clean: {},
         watch: {
             options: {
-                livereload: true
+                livereload: false
             }
         },
         tasks: config,

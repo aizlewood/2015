@@ -35,27 +35,27 @@
 		font-size: 100%;
 		margin-left: 7rem;	
 		padding: 0;	
-		padding-bottom: 50%;	
+		padding-bottom: 0%;	
 	}		
 }	
 
 @media all and (min-width: 60em) {
 	.projects .intro {
-		padding: 6% 6% 6% 6%;
+		padding: 15%;
 	}
 
 	.projects .intro {
 		height: 100%;
 		overflow: hidden;
-		position: fixed;
-		top: 0;
-		width: 90%;
+		// position: fixed;
+		// top: 0;
+		// width: 90%;
 		z-index: -1;
 	}	
 
 	.projects .intro h1,
 	.projects .intro p,	 {
-		margin-left: -12%;
+		// margin-left: -12%;
 	}
 
 	.projects .intro h1 {
@@ -64,7 +64,7 @@
 
 	.projects article {
 		background: #FFF;
-		margin-top: 35em;
+		margin-top: 2em;
 	}
 
 	.projects figure.hero img {

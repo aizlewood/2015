@@ -1,7 +1,7 @@
 <?php
 
 // $kirby = kirby();
-// $kirby->urls->index = 'http://clearleft.fwd.wf';
+// $kirby->urls->index = 'http://ja.clft.io';
 
 /*
 

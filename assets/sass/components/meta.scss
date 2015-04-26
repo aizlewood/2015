@@ -4,7 +4,8 @@
     color: #bbb;
     font-size: 0.8em;
     text-transform: uppercase;
-    font-family: $font-sans-gothic;
+    font-family: $font-sans-condensed;
+    font-weight: 400;
 }
 
 .author a {
@@ -21,15 +22,17 @@
 	text-align: left;
 	width: 100%;
 	text-transform: uppercase;
-	font-family: $font-sans-gothic;
+	font-family: $font-sans-condensed;
 	font-size: 0.9em;
 	color: #999;
+    font-weight: 400;	
 }
 
 .tags a {
-	font-family: $font-sans-gothic;	
+	font-family: $font-sans-condensed;	
 	color: #333;
 	margin: 0 0.5%;
+    font-weight: 400;	
 }
 
 @media all and (min-width: 50em) {

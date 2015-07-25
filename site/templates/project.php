@@ -14,7 +14,7 @@
         <?php endif ?>
 
           <?php foreach(page('projects')->children()->visible()->limit(1) as $project): ?>
-              <h1><?php echo $page->title()->html() ?></h1>
+              <h1 class="animated fadeIn"><?php echo $page->title()->html() ?></h1>
               <p><?php echo html($page->snippet()) ?></p>
           <?php endforeach ?>      
 
@@ -22,7 +22,7 @@
 
       <article>
 
-        <figure class="hero">
+        <figure class="hero animated fadeInUp">
           <img src="<?php echo $page->files()->get('hero.png')->url() ?>">
         </figure>
 

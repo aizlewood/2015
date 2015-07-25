@@ -2,12 +2,25 @@
   overflow: hidden;
   margin-left: -2px;
   padding: 0em;
-  padding-top: 6em;
+  padding-top: 4em;
   position: relative;
   top: 0;
 }
 
 
+@media all and (min-width: 25em) {
+  
+
+.main {
+  overflow: hidden;
+  margin-left: -2px;
+  padding: 0em;
+  padding-top: 0em;
+  position: relative;
+  top: 0;
+}
+
+}
 
 .main .intro {
   padding: 10% 10% 30% 10%;

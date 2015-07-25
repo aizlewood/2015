@@ -1,0 +1,36 @@
+body  {
+    background: rgba(15,24,47,1); 
+}
+
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5,
+p,
+ul,
+li {
+	color: #fff;
+}
+
+a:link {
+	color: #fff;
+}
+
+a:visited {
+	color: #fff;
+}
+
+a:hover {
+	color: #fff;
+}
+
+a:active {
+	color: #fff;
+}
+
+p.callout {
+	background: #fff;
+	color: #000;
+}

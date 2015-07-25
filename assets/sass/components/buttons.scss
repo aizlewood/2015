@@ -23,7 +23,7 @@ a.cta {
 	padding: 1.5em 2em;
 	text-decoration: none;
 	color: #fff;
-	font-size: 0.5em;
+	font-size: 0.4em;
 	text-transform: uppercase;
 	@include border-radius(5px);
 	border: 1px solid #fff;
@@ -41,5 +41,10 @@ a.cta:hover {
 	text-transform: uppercase;
 	@include border-radius(5px);
 	border: 1px solid #fff;
-	background: rgba(255,255,255,1);
+	background: rgba(255,255,255,0.9);
+}
+
+a.cta:active {
+	position: relative;
+	top: 1px;
 }

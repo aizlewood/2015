@@ -7,12 +7,14 @@
 	display: block;
 	background: #000;
 	color: #fff;
-	padding: 1em 0;
-	font-size: 1.8em;
-	font-family: $font-serif-emphasis;
+	padding: 1.5em 0;
+	font-size: 1.6em;
+	font-weight: 700;
+	font-family: $font-sans-bold;
 }
 
 .segue a:hover {
 	border: none;
+	background: #c41c58;
 	color: #FFF;
 }

@@ -1,4 +1,4 @@
-<?php
+  <?php
 
 use Kirby\Roots;
 use Kirby\Urls;

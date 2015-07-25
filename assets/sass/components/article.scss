@@ -3,31 +3,24 @@ article.home p {
 	font-size: 1.4em;
 }
 
-article.post p:first-of-type {
-	font-family: $font-serif-regular;
-	font-style:normal;
-	font-size: 1.6em;
-	line-height: 1.4;
-	color: $color-dark;
-}
-
 article blockquote  {
 	padding: 0%;
-	width: 80%;
+	position: relative;
+	left: -10%;
 	font-family: $font-serif-emphasis;	
-	font-style: italic;
-	opacity: 0.5;
+	font-style: italic;		
 }
 
 article blockquote p {
 	font-style: italic;
+
 }
 
-article blockquote p:first-of-type {
-	font-size: 1rem;
-	font-family: $font-serif-emphasis;
-	font-style: italic;
-}
+// article blockquote p:first-of-type {
+// 	font-size: inherit;
+// 	font-family: $font-serif-emphasis;
+// 	font-style: italic;
+// }
 
 article h1 {
 	border-bottom: 1px solid #ccc;

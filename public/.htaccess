@@ -16,7 +16,7 @@ RewriteEngine on
 #
 # RewriteBase /mysite
 
-RewriteBase /
+# RewriteBase /
 Options +Indexes
 
 # block text files in the content folder from being accessed directly

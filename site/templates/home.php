@@ -22,8 +22,8 @@
 
 	    <?php endif ?>
 	  
-	          <h1><a href="<?php echo $project->url() ?>"><?php echo $project->title()->html() ?></a></h1>
-	          <p><?php echo $project->snippet()->html() ?></p>
+	          <h1 class="animated fadeIn"><a href="<?php echo $project->url() ?>"><?php echo $project->title()->html() ?></a></h1>
+	          <p class="animated fadeIn"><?php echo $project->snippet()->html() ?></p>
 	          <p class="read-case-study"><a class="cta" href="<?php echo $project->url() ?>">read&nbsp;the&nbsp;case&nbsp;study→</a></p>
 	    </div>
 

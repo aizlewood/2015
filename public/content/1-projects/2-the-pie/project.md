@@ -8,9 +8,11 @@ Snippet: A network of resources for International Education
 ----
 lede: 
 
-##This is the project summary &amp; background. 
+##Creating a network for International Education
 
-Lorem ipsum dolor sit amet, consectetuer [adipiscing elit](#). Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo.
+`Attention: This project is currently being redesigned.`
+
+The PIE News (Professionals in International Education) is a growing network of sites servicing the International Education industry.  The PIE is read and used by a wide cross-section of people working in all areas of the international education sector - in HE, FE, language, independent and international schools, education agencies, government organisations and other service providers – from business owners, directors, senior managers, sales and marketing staff, and student counsellors, to academic managers, registrars and accommodation officers. The PIE News readership includes a large number of senior level decision makers and thought leaders.
 
 ----
 Hero: (image: http://lorempixel.com/1600/900/animals)
@@ -18,45 +20,52 @@ Hero: (image: http://lorempixel.com/1600/900/animals)
 ----
 Text: 
 
-This project included:
+The PIE Network is continually growing, and currently contains: 
 
-- Consulting
-- Information&nbsp;architecture
-- Visual&nbsp;design
-- HTML/CSS/jQuery
-- CMS&nbsp;implementation
-- Email&nbsp;marketing
-- Responsive&nbsp;email&nbsp;design
+* The PIE News - a business news forum
+* The PIE Jobs - an international education jobs board
+* The PIE Plus - business introductions for international education professionals
+* The PIE Review - an international education printed magazine
+* The PIE Talent - executive search specialists in international education
+* The PIE Weekly - weekly newsletter to over 12,000 subscribers
 
 ----
 Text: This is the project process &amp; background. 
 
 (image: http://lorempixel.com/1600/400/abstract)
 
-> This is the testimonial. rem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo.
-<cite>Amy Baker, The PIE News</cite>
+> The PIE News is like the Vanity Fair of international education: a mix of hard news stories and features and photos that capture the real culture of international education. 
+> -- Daniel Obst, Deputy Vice President, International Partnerships, Institute of International Education (IIE) (USA)
+
+### The start of a great relationship
+
+Having given numerous presentations for [EnglishUK](http://englishuk.com) on digital marketing and design, Amy Baker - co-founder of the PIE - came to CarbonGraffiti in the summer of 2011 with a idea: To create a fantastic news resource for the International Education industry.  
+
+What followed was the start of a fantastic journey that's seen the PIE grow exponentially and move from strength-to-strength, as well as amass a veritable empire of services and products.  Acting as not only a designer/developer but consultant, I was able to help and advise the PIE on direction, approaches and solutions throughout their tenure, and I continue to sit on their advisory board.
 
 
-#### This is a supporting title 1
+### Making *the* responsive news site for IntEd Professionals
 
-Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo.
+All with backgrounds in journalism, the PIE team were keen to get cracking on publishing great content to their new readers.  With a brand delivered from a 3rd-party agency to use a base, I worked closely with the PIE team to better understand their users, their specific requirements and consider how best we could serve them.
 
-(image: http://lorempixel.com/1600/900/)
+After considering the IA of the News site, we began sketching and wire framing the layout of the site that would allow for not only hard-hitting content but ad space. Advertising was (and is) the primary revenue generator for the PIE, so the allocation and tracking of ads across the network was crucial. 
+
+> “PIE, wow, a fresh wind came in when reviewing your website, reading your newsletter and studying your concept. Left me only with a jaw dropping – this is awesome – effect. So efficient and conveniently arranged, just excellent, well done (and this comes from a senior international recruiter/international relations officer who’s seen a lot but never that good).” Ria Duykers – Founder/Owner/Consultant, Wellness Travel Global and Global RTC (Canada)
 
 
-#### This is a supporting title 3
+After creating a rough visual language, typographic guideline and site structure, I started to prototype the news site in flat HTML pages, in an effort to better communicate the responsive nature of the site when displaying various ad blocks.  Following the success of the prototype I then implemented the site into Wordpress, and used various plugins to provide the User Experience the PIE team required.  
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo.
+### Expanding the network
 
-(image: http://lorempixel.com/1600/900/sports)
+Concurrent to the News site launch, we then took he base visual language and adapted it to a new Job search site.  This site would retain most of the responsive behaviour of the News site, but required a complete rethink for its radically different functionality and transactional nature.  The Jobs site continues to be one of the primary revenue generators for the PIE Network.
 
-#### This is a supporting title 3
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
-(image: http://lorempixel.com/1600/900/)
+### The outcomes
 
-#### This is a supporting title 4
+Since the launch of the PIE News and Jobs sites, the PIE Network has grown - with each new property adopting the initial visual language of the original sites - to create a unified and cohesive brand family.  
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo.
-
-(image: http://lorempixel.com/1600/900/sports)
+* The PIE has seen 640,000+ visitors since its launch in November 2011
+* It averages 38,000 unique visitors per month
+* It has readers in 225 countries reached so far
+* Its weekly newsletter lands in the inbox of 12,300+ opt-in subscribers
+* Amy Baker, Managing Director and Co-Founder, won the 2014 IEAA Award for Excellence in Professional Commentary

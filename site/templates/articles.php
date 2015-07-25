@@ -3,7 +3,7 @@
  <main class="main" role="main">
 
   <article>
-    <h1><?php echo html($page->title()) ?></h1>
+    <h1 class="post-title"><?php echo html($page->title()) ?></h1>
   </article>
 
 

@@ -20,13 +20,17 @@ div { font-family:"TabletGothicCondensedSemibold", 'Avenir Next Condensed', 'Ari
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
 @import url(http://fonts.googleapis.com/css?family=Raleway:700,400,300);
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic);
+@import url(http://fonts.googleapis.com/css?family=Abril+Fatface:400);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:400,500,700,400italic);
 
 $font-serif-bold: "Playfair Display", serif; 
+$font-serif-extrabold: "Abril Fatface", serif; 
 $font-serif-regular: "Playfair Display", serif;
 $font-serif-emphasis: "Playfair Display", serif;
-$font-sans-bold: "Raleway", sans-serif;
-$font-sans-regular: "Raleway", sans-serif;
-$font-sans-emphasis: "Raleway", sans-serif;
+$font-sans-bold: "Alegreya Sans", sans-serif;
+$font-sans-regular: "Alegreya Sans", sans-serif;
+$font-sans-emphasis: "Alegreya Sans", sans-serif;
 $font-sans-condensed: "Oswald", sans-serif;
 
 $color: #0F182F;
@@ -68,8 +72,17 @@ h5 {font-size: 1.2em; text-transform: uppercase;}
 p, li {
 	font-family: $font-sans-regular;
 	font-weight: 400;
-	@include font-size(10);
-	@include line-height(14);
+	@include font-size(9);
+	@include line-height(11);
+}
+
+.blog .post p:first-of-type {
+	font-family: $font-sans-bold;
+	font-weight: 700;
+	font-style:normal;
+	font-size: 1.3em;
+	line-height: 1.2;
+	color: $color-dark;
 }
 
 @media all and (min-width: 40em) {
@@ -77,9 +90,16 @@ p, li {
 		font-family: $font-sans-regular;
 		font-weight: 400;
 		@include font-size(12);
-		@include line-height(14);
+		@include line-height(11);
 	}
+
+	.blog .post p:first-of-type {
+		font-size: 1.6em;
+		line-height: 1.4;
+	}	
 }
+
+
 
 p {
 	margin-bottom: 5%;
@@ -89,6 +109,12 @@ p b,
 p strong {
 	font-family: $font-sans-bold;
 	font-weight: 700;
+}
+
+p em,
+p i {
+	font-family: $font-sans-regular;
+	font-style: italic;
 }
 
 figcaption {
@@ -114,25 +140,29 @@ a:link {
 	padding: 0 2px;
 	color: #000;
 	// border-bottom: 1px solid rgba(235,32,104,0.5);
-	transition: background 0.5s ease;
+	transition: background 0.2s ease;
 }
 
-a:hover {
-	background: #fffcd0;
-	border-bottom: 2px solid rgba(235,32,104,1);
+article a {
+	text-decoration: none;
+	padding: 0 2px;
+	color: #000;
+	// border-bottom: 1px solid rgba(235,32,104,0.5);
+	transition: background 0.2s ease;
+	border-bottom: 1px solid #c41c58;
+/*	text-shadow: 0.03em 0 #f8f7f8, -0.03em 0 #f8f7f8, 0 0.03em #f8f7f8, 0 -0.03em #f8f7f8, 0.06em 0 #f8f7f8, -0.06em 0 #f8f7f8, 0.09em 0 #f8f7f8, -0.09em 0 #f8f7f8, 0.12em 0 #f8f7f8, -0.12em 0 #f8f7f8, 0.15em 0 #f8f7f8, -0.15em 0 #f8f7f8;*/
 }
 
 a:visited {
 	color: #000;	
 }
 
-
-.content p a:hover {
-	background: #FFF8D2;
-	-webkit-transition: background 0.9s;
-	transition: background 0.9s;	
+a:hover {
+	// background: #FFF8D2;
+	color: #c41c58;
+	-webkit-transition: color 0.3s;
+	transition: color 0.3s;	
 }
-
 
 p.thoughts {
 	color: #111;
@@ -164,10 +194,6 @@ p.thoughts {
 	color: #ccc;
 	font-size: 14px;
 	line-height: 1;
-}
-
-ul li {
-	margin-bottom: 2%;
 }
 
 ul.work {

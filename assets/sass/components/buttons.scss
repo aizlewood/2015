@@ -16,35 +16,28 @@ a.back {
 	font-family: $font-sans-regular;
 }
 
-a.cta {
+.intro a.cta {
 	font-family: $font-sans-condensed;
 	font-size-adjust:0.488; 
 	font-style:normal;	
-	padding: 1.5em 2em;
-	text-decoration: none;
-	color: #fff;
-	font-size: 0.4em;
-	text-transform: uppercase;
-	@include border-radius(5px);
-	border: 1px solid #fff;
-	background: none;
-}
-
-a.cta:hover {
-	font-family: $font-sans-condensed;
-	font-size-adjust:0.488; 
-	font-style:normal;	
-	padding: 1.5em 2em;
+	padding: 2% 4%;
 	text-decoration: none;
 	color: #000;
-	text-shadow: none;
+	font-size: 0.4em;
+	line-height: 2;
 	text-transform: uppercase;
+	text-shadow: none;
 	@include border-radius(5px);
-	border: 1px solid #fff;
-	background: rgba(255,255,255,0.9);
+	background: rgba(255,255,255,1);
+	-webkit-transition: background 0.5s ease;
+	transition: background 0.5s ease;
 }
 
-a.cta:active {
+.intro a.cta:hover {
+	background: rgba(255,255,255,0.7);
+}
+
+.intro a.cta:active {
 	position: relative;
 	top: 1px;
 }

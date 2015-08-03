@@ -97,7 +97,7 @@ module.exports = function(grunt) {
              */
             files: [{
                 //src: ['assets/js/jquery.js', 'assets/js/main.js'],
-                src: ['assets/js/responsive-nav.js'],
+                src: ['assets/js/pace.js','assets/js/responsive-nav.js'],
                 dest: 'public/assets/js/main.js'
             }],
             /*

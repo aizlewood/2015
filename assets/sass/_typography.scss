@@ -18,10 +18,8 @@ div { font-family:"TabletGothicCondensedSemibold", 'Avenir Next Condensed', 'Ari
 // $font-sans-gothic: "TabletGothicCondensedSemibold", 'Avenir Next Condensed', 'Arial Narrow', Corbel, Arial, Roboto, sans-serif;
 
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
-@import url(http://fonts.googleapis.com/css?family=Raleway:700,400,300);
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic);
 @import url(http://fonts.googleapis.com/css?family=Abril+Fatface:400);
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic);
 @import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:400,500,700,400italic);
 
 $font-serif-bold: "Playfair Display", serif; 
@@ -123,6 +121,31 @@ figcaption {
 	letter-spacing: 2px;
 	opacity: 0.5;
 	text-align: right;
+	color: rgba(255,255,255,0.8);
+}
+
+blockquote  {
+	padding: 5% 0 2% 0;
+	margin: 4%;
+	position: relative;
+	left: -10%;
+	border-top: 1px solid rgba(255,255,255,0.3);
+	border-bottom: 1px solid rgba(255,255,255,0.3);	
+}
+
+blockquote p {
+	line-height: 1.5;
+	font-family: $font-serif-regular;	
+	font-weight: 400;	
+	text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+	opacity: 0.7;
+}
+
+blockquote p cite {
+	line-height: 1.5;
+	padding-top: 5%;
+	font-size: 80%;
+	display: block;
 }
 
 body {

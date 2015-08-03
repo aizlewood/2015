@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="61px" height="61px" viewBox="0 0 61 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>coffee</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-1" sketch:type="MSArtboardGroup" transform="translate(-158.000000, -157.000000)" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round">
+            <g id="coffee" sketch:type="MSLayerGroup" transform="translate(159.000000, 158.000000)">
+                <path d="M8.00867679,0.468357139 L8.00867679,26.4993225 L26.0281996,26.4993225 L26.0281996,50.527906 L0,50.527906 L0,58.5374338 L58.0629067,58.5374338 L58.0629067,5.47431202 C58.0629067,2.47073909 56.0607375,0.468357139 53.0574837,0.468357139 L8.00867679,0.468357139 L8.00867679,0.468357139 Z" id="Stroke-8370" sketch:type="MSShapeGroup"></path>
+                <path d="M46.0498915,58.5374338 L46.0498915,30.5040864 L58.0629067,30.5040864" id="Stroke-8371" sketch:type="MSShapeGroup"></path>
+                <path d="M44.0477223,10.4802669 L58.0629067,10.4802669" id="Stroke-8372" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+                <path d="M44.0477223,16.4874128 L58.0629067,16.4874128" id="Stroke-8373" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+                <path d="M44.0477223,22.4945586 L58.0629067,22.4945586" id="Stroke-8374" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+                <path d="M20.021692,40.5161964 L10.010846,40.5161964 L10.010846,34.5090506 L20.021692,34.5090506 L20.021692,40.5161964 Z" id="Stroke-8375" sketch:type="MSShapeGroup"></path>
+                <path d="M10.010846,36.5112323 L0,36.5112323" id="Stroke-8376" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+                <path d="M18.0195228,34.5088503 L18.0195228,26.4993225" id="Stroke-8377" sketch:type="MSShapeGroup"></path>
+                <path d="M12.0130152,34.5088503 L12.0130152,26.4993225" id="Stroke-8378" sketch:type="MSShapeGroup"></path>
+                <path d="M15.016269,40.5159962 L15.016269,42.5183782" id="Stroke-8379" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+                <path d="M20.021692,8.47788495 C20.021692,10.6895158 18.2287495,12.4826489 16.0173536,12.4826489 C13.8059577,12.4826489 12.0130152,10.6895158 12.0130152,8.47788495 C12.0130152,6.26625408 13.8059577,4.47312105 16.0173536,4.47312105 C18.2287495,4.47312105 20.021692,6.26625408 20.021692,8.47788495 L20.021692,8.47788495 Z" id="Stroke-8380" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

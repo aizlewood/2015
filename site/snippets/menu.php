@@ -25,6 +25,6 @@
 	</nav>
 	<?php endif ?>
 
-        <?php if( ($page->template() == "project") || ($page->template() == "article")): ?>
+<!--         <?php if( ($page->template() == "project") || ($page->template() == "article")): ?>
             <?php snippet('nextprev') ?>
-    <?php endif ?>
+    <?php endif ?> -->

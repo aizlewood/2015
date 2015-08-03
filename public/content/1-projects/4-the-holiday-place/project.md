@@ -6,6 +6,10 @@ Snippet: Making luxury holidays responsive
 
 ----
 
+Hero: (image: hero.png class: normal-size)
+
+----
+
 lede: 
 
 The Holiday Place are proud to be one of Europe's top Independent travel companies, working across Arabia, the Americas, the Caribbean, Africa, and the Indian Ocean. They make it as easy as possible for customers to choose and book their holiday options to suit their needs and their budget, including tours, all inclusive holidays, activities, truly tailor-made holidays, multi-destination adventures and honeymoons.
@@ -27,7 +31,6 @@ It was through this process that we decided to adopt a somewhat unorthodox 'bott
 ### Workshops aplenty
 
 Any company comprised of many stakeholders, each with a strong opinion, makes the highly-subjective world of visual design an unenviable task.  To focus this energy and enthusiasm into a unified visual language that had the company's backing required multiple workshops and exercises run throughout the project. One of the most productive workshops revolved around a brand questionnaire that required all stakeholders to articulate their opinions on questions such as 'If your brand were a type of car, which car would it be?'.  The results of these questions were not only entertaining but also highly enlightening for all stakeholders involved.  Not only were some opinions polarising, they helped the company agree on a brand direction, style and tone.
-
 
 ### Focusing on performance
 

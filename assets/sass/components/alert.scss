@@ -1,0 +1,11 @@
+.alert {
+	padding: 2%;
+	margin: 1em 1em 2em 1em;
+	overflow: hidden;
+	width: 90%;
+	color: #3c763d;
+	border: 1px solid #d6e9c6;
+	background: #dff0d8;
+	@include border-radius (5px);
+	text-align: center;
+}

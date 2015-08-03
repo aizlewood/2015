@@ -8,6 +8,7 @@
 <script>
 var nav = responsiveNav(".nav-collapse");
 </script>  
+<script src="/assets/js/pace.js"></script>
 
 </body>
 </html>

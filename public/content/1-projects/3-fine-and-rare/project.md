@@ -6,11 +6,7 @@ Snippet: Designing for Ultra High Net Worth individuals
 
 ----
 
-Year: 2012
-
-----
-
-Tags: stuff
+Hero: (image: hero.png class: normal-size)
 
 ----
 
@@ -30,6 +26,7 @@ Armed with stakeholder research, brand assets, value propositions and workshop o
 
 The design manifested itself as a premium, semi-luxury brand. This approach was founded on previous brand research findings as well as Clearleft's own stakeholder interviews.  We also applied a design persona to the process. This approach - conceived by Aaron Walter of MailChimp - helps stakeholders better understand their brand and its position as seen by customers and internal staff alike.  By viewing the exploratory work through this lens, the stakeholders were better able to see how the brand should manifest itself as a website.
 
+(image: device-skew.png class: normal-size)
 
 #### Moving to production
 

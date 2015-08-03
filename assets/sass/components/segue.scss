@@ -1,20 +1,31 @@
 .segue {
 	width: 100%;
+	margin-top: 5%;
+	background: rgba(15,24,47,1); 
+	color: #fff;
+	padding: 10% 0;
 	text-align: center;
 }
 
 .segue a {
-	display: block;
-	background: #000;
-	color: #fff;
-	padding: 1.5em 0;
-	font-size: 1.6em;
-	font-weight: 700;
-	font-family: $font-sans-bold;
+	padding: 0.8em 1.8em;
+	background: rgba(255,255,255,1);
+	@include border-radius(5px);
+	font-size: 1em;
+	color: #000 !important;
+	text-transform: uppercase;
+	border-bottom: 0;
+	font-family: $font-sans-condensed;
+	font-size-adjust:0.488; 
 }
 
 .segue a:hover {
 	border: none;
-	background: #c41c58;
-	color: #FFF;
+	background: rgba(255,255,255,0.7);
 }
+
+@media all and (min-width: 40em) {
+	.segue {
+		padding: 4% 0;
+	}	
+}	

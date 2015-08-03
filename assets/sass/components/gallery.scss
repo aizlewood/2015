@@ -3,7 +3,8 @@
    ========================================================================== */
 
 ul.gallery {
-	margin: 0 0 3% 0;
+	overflow: hidden;
+	margin: 0 0 2em 0;
 	padding: 0;
 	width: 100%;
 }
@@ -28,6 +29,7 @@ ul.gallery li img {
 		overflow: hidden;
 		padding: 0;
 		width: 100%;
+		text-align: center;
 		margin-bottom: 5%;
 	}
 
@@ -35,8 +37,9 @@ ul.gallery li img {
 		line-height: 0;
 		margin: 0;
 		padding: 0;
-		width: 33.1%;
-		float: left;
+		width: 25.1%;
+		float: none;
+		display: inline-block;
 		list-style-type: none;
 	}
 

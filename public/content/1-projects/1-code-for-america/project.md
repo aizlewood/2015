@@ -2,11 +2,7 @@ Title: Code for America
 
 ----
 
-Year: 2014
-
-----
-
-Tags: design
+Hero: (image: hero.png class: normal-size)
 
 ----
 
@@ -48,12 +44,14 @@ Armed with a new brand direction and some initial user research and sketches fro
 ## Designing at pace
 With the foundational design work done, I then started to tackle the key page designs for the rest of the site as outlined by the CfA team.  Working alongside Anna meant that any new patterns or interactions created in these designs were quickly flagged and coded, before being added to the now rapidly-growing pattern library.  Ultimately the page-level design was necessary in order to see the interplay of multiple elements across the page, but - as they were broken down into small and smaller constituent parts - the design system started to emerge.  As the design progressed, more and more existing elements and patterns could be reused or tweaked to create new designs.
 
+(image: iPad-air.png class: normal-size)
+
 ## Outcomes
 The speed at which this project took place made it an entertaining, fast-paced and highly enjoyable, as did the team working on it. The CfA team (Mike Migurski & Cyd Harrell) are designers themselves, meaning they knew what they wanted, why they wanted it, and could back up their rationale, whereas the Brighton-based team got to sing Team America's 'F*ck Yeah' every day.  Not bad.
 
 
 > We chose to work with Clearleft because they develop a pattern portfolio (a pattern/style library) which would allow us to scale our work to our Brigades. This unique approach has aligned perfectly with our work style and decentralized organizational structure.
-> -- Michal Migurski, CTO
+> <cite>-- Michal Migurski, CTO</cite>
 
 
 Finally, perhaps surprisingly the geographic differences (San Francisco and Brighton) actually helped matters.  Every day throughout the project we had a 'stand up' - 9:30am SF time, 5:30pm Brighton time.  This continuity helped ensure everyone knew what was being done and when, and anything that required CfA's input meant they had an entire work day to consider it. 

@@ -1,2 +1,2 @@
-Title: Words
+Title: Journal
 ----

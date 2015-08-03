@@ -6,6 +6,10 @@ Snippet: Rebranding through the interface
 
 ----
 
+Hero: (image: hero.png class: normal-size)
+
+----
+
 lede:  PictureBox is a video on demand film service offering a selection of films for a monthly subscription. It launched in 2006 and is available online or as a separate subscription through several Digital TV service providers in selected countries such as United Kingdom, Poland, Russia and Central and Latin America (Mexico, Colombia and Brazil). PictureBox is the only wholly owned SVOD (subscription video on demand service) operated by NBCUniversal.
 
 Following several successful projects with NBC Universal, Clearleft were asked to help reinvigorate PictureBox.

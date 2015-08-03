@@ -8,27 +8,48 @@ img.right {
 	margin-left: 4%;
 }
 
+figure.hero {
+	margin-bottom: 2em;
+}	
+
 @media all and (min-width: 50em) {
 	figure {
 		text-align: center;
 		margin: 0 0 5% 0;
 	}
 
+	figure.full-bleed img {
+		width: 100%;
+		margin: 0 0 5% 0;
+		// box-shadow: 0 1px 12px rgba(0,0,0,0.5);
+	}
+
 	figure.normal-size img {
 		width: auto;
 		margin: 0 0 5% 0;
-		box-shadow: 0 1px 12px rgba(0,0,0,0.5);
+		// box-shadow: 0 1px 12px rgba(0,0,0,0.5);
 	}
 
 	figure.mid-size img {
 		width: 40%;
 		margin: 0 0 5% 0;		
-		box-shadow: 0 1px 12px rgba(0,0,0,0.5);
+		// box-shadow: 0 1px 12px rgba(0,0,0,0.5);
 	}	
 
 	figure.small-size img {
 		width: 25%;
 		margin: 0 0 5% 0;		
-		box-shadow: 0 1px 12px rgba(0,0,0,0.5);	
+		// box-shadow: 0 1px 12px rgba(0,0,0,0.5);	
 	}	
+
+	figure.mobile img {
+		width: 25%;
+		max-width: 20em;
+		margin: 0 0 5% 0;		
+		// box-shadow: 0 1px 12px rgba(0,0,0,0.5);	
+	}
+
+	figure.hero {
+		margin-bottom: -5em;
+	}		
 }	

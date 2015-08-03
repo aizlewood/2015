@@ -22,8 +22,8 @@
 
       <article>
 
-        <figure class="hero animated fadeInUp">
-          <img src="<?php echo $page->files()->get('hero.png')->url() ?>">
+        <figure class="hero animated fadeIn">
+          <?php echo $page->hero()->kirbytext() ?>
         </figure>
 
         <div class="row lede">
@@ -58,7 +58,7 @@
 
     <div class="segue">
           <?php if($next = $page->nextVisible()): ?>
-          <a href="<?php echo $next->url() ?>">View Next Project</a>
+          <a href="<?php echo $next->url() ?>">Next: <?php echo $next->title() ?></a>
           <?php else : ?>
           <?php endif ?>
     </div>

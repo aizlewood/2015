@@ -2,15 +2,11 @@ Title: NBC Puma
 
 ----
 
-Year: 2014
-
-----
-
-Tags: outdoor
-
-----
-
 snippet: Making intranets sexy
+
+----
+
+Hero: (image: hero.png class: normal-size)
 
 ----
 
@@ -35,6 +31,8 @@ PumaTV was no different.  With very little brand collateral to work with, I devi
 ### Going with the gut
 Needing to better understand the requirements for the visual design portion of this project in the absence of any brand collateral, I led workshops with the immediate stakeholders of the project who then fed back from their CMO, based in LA.  
 
+(image: iPads-2.png class: normal-size)
+
 One of the workshops conducted was the 20 second gut test, an exercise we use at Clearleft to help gauge the aesthetic preferences and desired outcomes of the visual design we produce.  The workshop lets stakeholders voice their likes and dislikes of various websites and digital products, and the outcomes are used to help guide the creative direction of the new site. 
 
 ### Element collaging
@@ -47,14 +45,13 @@ Additionally, Clearleft agreed to deliver a comprehensive style guide, thereby e
 
 I created the style guide in 4 sections: 
 
-**Typographic style guide** - This set the base sizing, font choice and fallbacks.
+1. **Typographic style guide** - This set the base sizing, font choice and fallbacks.
+2. **Base elements** - These elements are common across the entire site such as grids, buttons.
+3. **Global patterns** - Larger patterns used across the site, such as navigation and footers.
+4. **PUMA patterns** - Patterns specific to the User Interface, such as assets, video treatment and faceted search.
 
-**Base elements** - These elements are common across the entire site such as grids, buttons.
 
-**Global patterns** - Larger patterns used across the site, such as navigation and footers.
-
-**PUMA patterns** - Patterns specific to the User Interface, such as assets, video treatment and faceted search.
-
+(image: iMac-2.png class: normal-size)
 
 ### Outcomes
 In retrospect, creating static styleguides isn't an ideal deliverable - it's time consuming, prone to error, and is something much better delivered as native HTML and CSS.  However as NBCU's project will be desktop-only, the style guide's size was considerably less.

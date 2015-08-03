@@ -1,5 +1,6 @@
 .projects article {
 	position: relative;
+	background: #fff;
 }
 
 .projects figure.hero img {
@@ -7,16 +8,25 @@
 }
 
 .projects .intro {
-	padding: 10% 10% 40% 10%;
+	padding: 30% 10% 60% 10%;
 }
 
-// @media all and (min-width: 25em) {
-// .projects {
-// 		margin-top: 4em;
-// 	}	
-// }
+.projects .intro:after {	
+    content: ' ';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+    background: rgba(15,24,47,0.6);  
+    transition: background 1.0s ease;
+}	
 
 @media all and (min-width: 40em) {
+	.projects .intro {
+		padding: 10% 10% 40% 10%;
+	}	
 	.projects .intro h1 {
 		font-size: 6em;
 	}	
@@ -52,7 +62,7 @@
 		// top: 0;
 		// width: 90%;
 		z-index: -1;
-	}	
+	}
 
 	.projects .intro h1,
 	.projects .intro p,	 {

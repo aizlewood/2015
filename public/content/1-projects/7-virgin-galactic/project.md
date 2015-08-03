@@ -2,7 +2,10 @@ Title: Virgin Galactic
 
 ----
 
-bgblock: #ff0000
+<!-- bgblock: #ff0000 -->
+----
+
+Hero: (image: hero.png class: normal-size mobile)
 
 ----
 
